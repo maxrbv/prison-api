@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0f0a18;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CigarettePack {
+    flex-direction: column;
+    max-width: 450px;
+    max-height: 650px;
+    width: 450px;
+    height: 650px;
+    background: #221a30;
+}
+
+.CigarettePack h1 {
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.CigarettePack img {
+    width: 256px;
+    height: 256px;
+    margin: 30% auto;
+    display: block;
+}
+
+.CigarettePack p {
+    color: #fff;
+    text-align: center;
+}
